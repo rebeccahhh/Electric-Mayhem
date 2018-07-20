@@ -1,0 +1,40 @@
+
+
+body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.cancelForgot {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+/*.container {*/
+/*    height: 100vh;*/
+/*    width: 100vw;*/
+/*}*/
+
+.buttons,
+.loginForm,
+.pullForm {
+    padding: 2%;
+}
+
+.container {
+    height: 95vh;
+    overflow: auto;
+    position: center;
+    width: 95vw;
+}
+
+
+/*Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+
+}
