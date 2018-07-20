@@ -3,7 +3,7 @@ from mergeMail import mergeCards
 import sys
 
 # or using an access token
-g = Github("15cfb67e306b4b6e344ccd452c0b9ca56cf4b913")
+g = Github("")
 #class github.Issue.Issue
 #test
 def getAllIssues():

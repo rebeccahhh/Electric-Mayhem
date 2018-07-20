@@ -9,3 +9,9 @@
 \_)(_/\_/\_/(__/  \_)(_/(____)\_)(_/
 ```
 ### Hackathon workspace for the team aptly named Electric Mayhem.
+
+
+To test the integration of Github issues into Microsof word, run gitAccess.py by entering the command: python gitAccess.py 
+'''
+"1 or more issues numbers"
+''''

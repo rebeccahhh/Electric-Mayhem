@@ -2,23 +2,34 @@
 
 
 body {
-    align-items: center;
-    display: flex;
+    /*align-items: center;*/
+    /*display: flex;*/
     height: 100vh;
-    justify-content: center;
+    /*justify-content: center;*/
     width: 100vw;
+}
+
+.avatar {
+    margin-top: 2%;
 }
 
 .cancelForgot {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 2%;
+    padding: 4%;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
 }
 
 /*.container {*/
-/*    height: 100vh;*/
-/*    width: 100vw;*/
+/*    height: 95vw;*/
+/*    overflow: auto;*/
+/*    position: center;*/
+/*    width: 95vw;*/
 /*}*/
 
 .buttons,
@@ -27,12 +38,6 @@ body {
     padding: 2%;
 }
 
-.container {
-    height: auto;
-    overflow: auto;
-    position: center;
-    width: 95vw;
-}
 
 
 /*Change styles for span and cancel button on extra small screens */

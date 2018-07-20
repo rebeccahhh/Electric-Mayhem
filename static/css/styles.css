@@ -69,6 +69,10 @@ b {
     background-color: black;
 }
 
+body {
+    background-color: black;
+}
+
 form {
     background-color: black;
     border-style: none !important; 
@@ -113,13 +117,13 @@ ul {
     background-color: black;
 }
 
-/*.container {*/
-/*    background-color: black;*/
-/*}*/
-
 .container {
     background-color: black;
 }
+
+/*.container {*/
+/*    background-color: black;*/
+/*}*/
 
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
