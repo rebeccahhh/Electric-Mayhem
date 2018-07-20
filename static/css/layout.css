@@ -1,5 +1,6 @@
 
 
+
 body {
     align-items: center;
     display: flex;
@@ -27,7 +28,7 @@ body {
 }
 
 .container {
-    height: 95vh;
+    height: auto;
     overflow: auto;
     position: center;
     width: 95vw;

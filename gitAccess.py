@@ -3,10 +3,11 @@ from mergeMail import mergeCards
 import sys
 
 # or using an access token
-g = Github("d4cfa9c6bc4353c3767c9dd1a2d3628d8f8f0d5a")
+g = Github("15cfb67e306b4b6e344ccd452c0b9ca56cf4b913")
 #class github.Issue.Issue
 #test
 def getAllIssues():
+    print("Making Cards for all issues.")
     repo = g.get_user().get_repo("Electric-Mayhem")
     all_issues = repo.get_issues();
     mergeCards(all_issues)
@@ -20,7 +21,7 @@ def getOneSpecificIssue(issueNumber):
     
 def getSpecifiedIssues(cardNumbers):
     cardList = cardNumbers.replace(" ","").split(",")
-    print(cardList)
+    print("Making Cards for: " + str(cardList)[1:-1])
     cards = []
     for item in cardList:
         if (item.find("-") != -1):

@@ -5,7 +5,7 @@ var showButton = document.getElementById('show');
     window.open("./show.html", "_self");
     };
    
-var issueNumbers = 
+var issueNumbers = document.getElementsByName();
     
 var pullButton = document.getElementById('pull');
     pullButton.onclick = function () {

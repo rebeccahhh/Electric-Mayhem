@@ -1,5 +1,4 @@
 
-
 /* Bordered form */
 form {
     border: 3px solid #f1f1f1;
@@ -62,7 +61,7 @@ span.psw {
 /*custom code*/
 
 * {
-   background-color: white; 
+   background-color: black; 
 }
 
 b {
@@ -77,6 +76,9 @@ form {
     padding: 2%;
 }
 
+header {
+    background-color: black;
+}
 
 h1 {
     background-color: black;
@@ -85,7 +87,7 @@ h1 {
 }
 
 input {
-    background-color: white;
+    background-color: black;
 }
 
 ul {
@@ -117,7 +119,6 @@ ul {
 
 .container {
     background-color: black;
-    border: 15px double yellow;
 }
 
 /* Change styles for span and cancel button on extra small screens */
